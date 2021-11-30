@@ -1,0 +1,97 @@
+{
+  "name": "Fall",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#262022",
+    "editor.foreground": "#E3DEDF",
+    "activityBarBadge.background": "#007acc",
+    "sideBarTitle.foreground": "#bbbbbb"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#C65882"
+      }
+    },
+    {
+      "name": "Codetags",
+      "scope": ["keyword.codetag"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#7EC892"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": ["constant"],
+      "settings": {
+        "foreground": "#F99270"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": ["punctuation", "meta.brace.round"],
+      "settings": {
+        "foreground": "#A29094"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#F9C19A"
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": [
+        "keyword.control",
+        "keyword.operator",
+        "constant.other.color",
+        "meta.tag",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "storage.modifier",
+        "support.type",
+        "entity.name.function.decorator",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#FF7092"
+      }
+    },
+    {
+      "name": "Definitions",
+      "scope": [
+        "storage.type.function",
+        "storage.type.class",
+        "storage.type.string"
+      ],
+      "settings": {
+        "foreground": "#7EC892"
+      }
+    },
+    {
+      "name": "Definition names",
+      "scope": [
+        "entity.name.type.class",
+        "entity.name.function",
+        "support.function.magic",
+        "support.function.builtin.python"
+      ],
+      "settings": {
+        "foreground": "#D6ABEE"
+      }
+    },
+    {
+      "name": "Parameters",
+      "scope": ["variable.parameter", "variable.language.special.self"],
+      "settings": {
+        "foreground": "#FFB370"
+      }
+    }
+  ]
+}

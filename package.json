@@ -1,0 +1,21 @@
+{
+  "name": "fall-syntax",
+  "displayName": "Fall Syntax",
+  "description": "A syntax theme for your eyes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fall",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fall-color-theme.json"
+      }
+    ]
+  }
+}
