@@ -3,6 +3,10 @@
   "displayName": "Fall Syntax",
   "description": "A syntax theme for your eyes",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThatXliner/fall-syntax-vscode.git"
+  },
   "engines": {
     "vscode": "^1.62.0"
   },
