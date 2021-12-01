@@ -7,3 +7,17 @@ I still have some decisions about the original theme to make so for now, this th
 *But not even a syntax theme can hide the ugliness of VSCode*
 
 [fs]: https://github.com/ThatXliner/fall-syntax
+
+## Installation
+
+Until I upload this to the [marketplace](https://marketplace.visualstudio.com/vscode), here is a `git clone`-based solution/hack:
+
+```bash
+$ git clone https://github.com/ThatXliner/fall-syntax-vscode.git $HOME/.vscode/extensions/thatxliner.fall-syntax-vscode
+```
+
+To update, just run
+
+```bash
+$ git -C $HOME/.vscode/extensions/thatxliner.fall-syntax-vscode pull
+```
